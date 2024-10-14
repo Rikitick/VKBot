@@ -99,7 +99,7 @@ int main(void)
 			if (flag) {
 				std::ofstream file("pers.txt", std::ios::app);
 				memset(number, 0, 20);
-				int_to_str(number, static_cast<int>(/* 547532342 */static_cast<int>(pers[j]["id"]))); 
+				int_to_str(number, static_cast<int>(static_cast<int>(pers[j]["id"]))); 
 
 				url = "https://api.vk.com/method/messages.send?user_id=" + static_cast<std::string>(number) + "&random_id=100&message=" + static_cast<std::string>(pers[j]["first_name"]) + ",%20здравствуйте.%0A%0AНашёл%20Вас%20в%20сообществе%20\"" + group_name + "&access_token=" + token + "&v=5.199";
 				//url = "https://api.vk.com/method/messages.send?user_id=" + static_cast<std::string>(number) + "&random_id=0&message=Нашёл%20Вас%20в%20сообществе%20\"" + group_name + "\".&access_token=" + token + "&v=5.199";
