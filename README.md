@@ -1,1 +1,1 @@
-If you can't compile file "VKBot.cpp" straightaway, you will need to compile file "usingCURL.cpp" for compile file "VKBot.cpp" next.
+If you can't compile file "VKBot.cpp" straightaway, you will need to compile file "usingCURL.cpp" for compile file "VKBot.cpp" next. Don't forget to download a library "curl" :)
